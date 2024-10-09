@@ -1,7 +1,7 @@
 from rest_framework.response import Response
 from rest_framework.views import APIView
 from .models import Doctor
-
+import google.generativeai as genai
 from .serializers import DoctorSerializer
 from rest_framework import status
 import os 
